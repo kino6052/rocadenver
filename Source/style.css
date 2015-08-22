@@ -1,0 +1,49 @@
+/* Latest compiled and minified CSS included as External Resource*/
+
+/* Optional theme */
+@import url('http://fonts.googleapis.com/css?family=Playfair+Display');
+
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+
+body {
+    margin: 10px;
+    font-family: "Playfair Display";
+    background-image: url("http://www.pravoslavie.ru/pics/bg.jpg");
+    background-size: repeat;
+}
+
+.theme-showcase {
+    background-color: white;
+    border: 1px solid #AAA;
+}
+
+img {
+    width: 100%;
+}
+
+table {
+  border-radius: 6px!important;
+}
+
+.jumbotron {
+    color: white;
+    text-shadow: 1px 1px 0 #555,
+     -1px -1px 0 #555,
+      1px -1px 0 #555,
+      -1px 1px 0 #555,
+       1px 1px 0 #555;
+    background-image: url('http://albumwar2.com/wp-content/uploads/2013/07/39168.jpg');
+    background-size: cover;
+    border: 1px solid #555;
+    border-radius: 0;
+}
+
+.jumbotron .shadow {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 6px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Playfair Display";
+}
